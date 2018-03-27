@@ -24,7 +24,8 @@ body {
   background-color: #c69963; }
 
 .header {
-  background-color: #54483A; }
+  background-color: #54483A;
+  grid-column: full-start / col-end 6; }
 
 .realtors {
   background-color: #101d2c; }
