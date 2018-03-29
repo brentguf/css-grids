@@ -2,24 +2,3 @@
   background-color: $color-grey-dark-1;
   grid-column: full-start / col-end 6;
 }
-
-%heading {
-  font-family: 'Josefin Sans';
-  font-weight: 400;
-}
-
-.heading-1 {
-}
-
-.heading-2 {
-  
-}
-
-.heading-3 {
-  
-}
-
-.heading-4 {
-  @extend %heading;
-  font-size: 1.8rem;
-}

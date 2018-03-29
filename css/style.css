@@ -20,6 +20,13 @@ body {
   grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
   grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14.25rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end]; }
 
+.heading-4 {
+  font-family: 'Josefin Sans';
+  font-weight: 400; }
+
+.heading-4 {
+  font-size: 1.8rem; }
+
 .sidebar {
   background-color: #c69963;
   grid-row: 1 / -1; }
@@ -27,13 +34,6 @@ body {
 .header {
   background-color: #54483A;
   grid-column: full-start / col-end 6; }
-
-.heading-4 {
-  font-family: 'Josefin Sans';
-  font-weight: 400; }
-
-.heading-4 {
-  font-size: 1.8rem; }
 
 .realtors {
   background-color: #101d2c;
