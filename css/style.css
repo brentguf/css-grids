@@ -103,7 +103,7 @@ body {
 
 .story__pictures {
   grid-column: full-start / col-end 4;
-  background-color: #101d2c;
+  background-image: linear-gradient(to right, rgba(198, 153, 99, 0.5), rgba(198, 153, 99, 0.5)), url("../img/back.jpg");
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(6, 1fr);
