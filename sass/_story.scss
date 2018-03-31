@@ -3,6 +3,18 @@
   &__pictures {
     grid-column: full-start / col-end 4;
     background-color: $color-secondary;
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    grid-template-rows: repeat(6, 1fr);
+  }
+
+  &__photo--1 {
+
+  }
+
+  &__photo--2 {
+    
   }
 
   &__content {
