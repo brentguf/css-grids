@@ -147,6 +147,7 @@ body {
 .home {
   background-color: #f9f7f6;
   display: grid;
+  grid-gap: 2rem;
   grid-template-columns: repeat(2, 1fr); }
   .home__img {
     width: 100%;
@@ -162,8 +163,21 @@ body {
     margin: 1rem;
     cursor: pointer; }
   .home__name {
+    background-color: #101d2c;
+    font-family: 'Josefin Sans';
+    color: #fff;
+    font-weight: 400;
+    padding: 1rem 2rem;
+    text-align: center;
     font-size: 1.5rem;
-    grid-column: 1 / -1; }
+    width: 80%;
+    margin: 0 auto;
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    align-self: end;
+    transform: translateY(50%); }
+  .home__location, .home__rooms {
+    margin-top: 3rem; }
   .home__location, .home__rooms, .home__area, .home__price {
     display: flex;
     align-items: center;
