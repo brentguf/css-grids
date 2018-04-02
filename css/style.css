@@ -161,10 +161,18 @@ body {
     justify-self: end;
     margin: 1rem;
     cursor: pointer; }
-  .home__location svg, .home__rooms svg, .home__area svg, .home__price svg {
-    fill: #c69963;
-    width: 2rem;
-    height: 2rem; }
+  .home__name {
+    font-size: 1.5rem;
+    grid-column: 1 / -1; }
+  .home__location, .home__rooms, .home__area, .home__price {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem; }
+    .home__location svg, .home__rooms svg, .home__area svg, .home__price svg {
+      fill: #c69963;
+      width: 2rem;
+      height: 2rem;
+      margin-right: .7rem; }
 
 .gallery {
   background-color: #54483A;

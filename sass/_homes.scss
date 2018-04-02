@@ -33,17 +33,23 @@
   }
 
   &__name {
-    
+    font-size: 1.5rem;
+    grid-column: 1 / -1;
   }
 
   &__location,
   &__rooms,
   &__area,
   &__price {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+
     svg {
       fill: $color-primary;
       width: 2rem;
       height: 2rem;
+      margin-right: .7rem;
     }
   }
 }
