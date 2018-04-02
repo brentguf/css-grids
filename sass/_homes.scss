@@ -9,4 +9,41 @@
 
 .home {
   background-color: $color-grey-light-1;
+  
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  &__img {
+    width: 100%;
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+  }
+
+  &__like {
+    grid-column: 2 / -1;
+    grid-row: 1 / 2;
+
+    width: 2rem;
+    height: 2rem;
+    fill: $color-primary;
+    justify-self: end;
+    margin: 1rem;
+
+    cursor: pointer;
+  }
+
+  &__name {
+    
+  }
+
+  &__location,
+  &__rooms,
+  &__area,
+  &__price {
+    svg {
+      fill: $color-primary;
+      width: 2rem;
+      height: 2rem;
+    }
+  }
 }
