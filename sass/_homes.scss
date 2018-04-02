@@ -70,4 +70,8 @@
       margin-right: .7rem;
     }
   }
+
+  &__btn {
+    grid-column: 1 / -1;
+  }
 }

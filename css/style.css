@@ -187,6 +187,8 @@ body {
       width: 2rem;
       height: 2rem;
       margin-right: .7rem; }
+  .home__btn {
+    grid-column: 1 / -1; }
 
 .gallery {
   background-color: #54483A;
