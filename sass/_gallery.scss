@@ -8,7 +8,10 @@
   grid-gap: 1.5rem;
   padding: 1.5rem;
 
-  &__img-container {
+  &__item {
+    &--1 {
+      grid-row: 1 / 3;
+    }
   }
 
   &__img {
