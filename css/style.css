@@ -193,7 +193,10 @@ body {
 
 .gallery {
   background-color: #54483A;
-  grid-column: full-start / full-end; }
+  grid-column: full-start / full-end;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(7, 1fr); }
 
 .footer {
   background-color: #101d2c;
