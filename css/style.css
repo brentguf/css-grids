@@ -101,7 +101,15 @@ body {
   grid-column: full-start / col-end 6;
   background-image: linear-gradient(to right, rgba(16, 29, 44, 0.8), rgba(16, 29, 44, 0.8)), url("../img/hero.jpeg");
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  padding: 16rem 8rem 8rem;
+  display: grid;
+  grid-template-columns: max-content;
+  grid-template-rows: min-content min-content 1fr min-content min-content;
+  grid-row-gap: 1.5rem; }
+  .header__btn {
+    align-self: start;
+    justify-self: start; }
   .header__seenon-logos img {
     height: 2.5rem; }
 

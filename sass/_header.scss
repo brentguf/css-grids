@@ -6,9 +6,20 @@
       rgba($color-secondary, .8), 
       rgba($color-secondary, .8)
     ),
-    url('../img/hero.jpeg')    ;
+    url('../img/hero.jpeg');
   background-size: cover;
   background-position: center;
+  padding: 16rem 8rem 8rem;
+
+  display: grid;
+  grid-template-columns: max-content;
+  grid-template-rows: min-content min-content 1fr min-content min-content;
+  grid-row-gap: 1.5rem;
+
+  &__btn {
+    align-self: start;
+    justify-self: start;
+  }
 
   &__seenon-text {
 
