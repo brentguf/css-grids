@@ -12,7 +12,6 @@
   padding: 16rem 8rem 8rem;
 
   display: grid;
-  grid-template-columns: max-content;
   grid-template-rows: min-content min-content 1fr min-content min-content;
   grid-row-gap: 1.5rem;
 
@@ -26,6 +25,11 @@
   }
 
   &__seenon-logos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 3rem;
+    justify-items: center;
+
     img {
       height: 2.5rem;
     }
