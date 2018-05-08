@@ -3,8 +3,8 @@
   background-image: 
     linear-gradient(
       to right,
-      rgba($color-secondary, .8), 
-      rgba($color-secondary, .8)
+      rgba($color-secondary, .9), 
+      rgba($color-secondary, .9)
     ),
     url('../img/hero.jpeg');
   background-size: cover;
@@ -21,7 +21,21 @@
   }
 
   &__seenon-text {
+    display: grid;
+    font-size: 1.6rem;
+    color: $color-grey-light-2;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-column-gap: 1.5rem;
+    align-items: center;
+    margin-bottom: 1rem;
 
+    &::before,
+    &::after {
+      content: '';
+      height: 1px;
+      display: block;
+      background-color: currentColor;
+    }
   }
 
   &__seenon-logos {
@@ -32,6 +46,7 @@
 
     img {
       height: 2.5rem;
+      filter: brightness(70%);
     }
   }
 }
